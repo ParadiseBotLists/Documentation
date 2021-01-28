@@ -15,7 +15,7 @@ export default () => {
       xmlns="http://www.w3.org/2000/svg">
       <image 
          href="https://static.thenounproject.com/png/640515-200.png"
-         style={{ width: 300, height: 300, borderRadius: 30 }}
+         style={{ color: 'white', width: 300, height: 300, borderRadius: 30 }}
       />
     </svg>
   );
