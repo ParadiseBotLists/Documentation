@@ -8,7 +8,7 @@ import { useMediaQuery } from "react-responsive";
 
 import BoilerplateSvg from "../components/svg/boilerplate";
 import SAMLSvg from "../components/svg/saml";
-import CertProgramSvg from "../components/svg/cert";
+import QueueSvg from "../components/svg/queue";
 import PartnerProgramSvg from "../components/svg/partner";
 import TeamDocsSvg from "../components/svg/team_docs";
 import TitleWithMarker from "../components/titleWithMarker/index";
@@ -26,7 +26,7 @@ const features = [
         bigger deals.
       </>
     ),
-    Component: CertProgramSvg,
+    Component: QueueSvg,
   },
   {
     title: <>Ship, faster</>,
