@@ -9,6 +9,7 @@ import { useMediaQuery } from "react-responsive";
 import BoilerplateSvg from "../components/svg/boilerplate";
 import SAMLSvg from "../components/svg/saml";
 import certSVG from "../components/svg/cert";
+import partnerSVG from "../components/svg/partner";
 import TeamDocsSvg from "../components/svg/team_docs";
 import TitleWithMarker from "../components/titleWithMarker/index";
 import screens from "../utils/responsive";
@@ -37,7 +38,7 @@ const features = [
         in just a few hours.
       </>
     ),
-    Component: ("https://cdn.discordapp.com/attachments/747390406722977863/760791912642117661/image0.png"),
+    Component: partnerSVG,
   },
   {
     title: <>Free up your dev team</>,
