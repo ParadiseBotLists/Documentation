@@ -73,7 +73,7 @@ function Home() {
       <main>
         <section className={styles.features}>
           <div className="container">
-            {features.map(({ title, description, image }, idx) => (
+            {features.map(({ title, description, Component }, idx) => (
               <div key={idx} className={classnames("row", styles.row)}>
                 <div className="col">
                   <TitleWithMarker title={title} />
