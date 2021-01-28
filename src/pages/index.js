@@ -78,7 +78,6 @@ function Home() {
                   <p>{description}</p>
                 </div>
                 </div>
-              </div>
             ))}
           </div>
         </section>
