@@ -110,9 +110,9 @@ module.exports = {
     },
     colorMode: {
       switchConfig: {
-        darkIcon: "🌙",
+        darkIcon: "🦉",
         darkIconStyle: {},
-        lightIcon: "🔆",
+        lightIcon: "🌞",
         lightIconStyle: {},
       },
     },
