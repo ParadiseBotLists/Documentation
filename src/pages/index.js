@@ -9,7 +9,7 @@ import { useMediaQuery } from "react-responsive";
 import BoilerplateSvg from "../components/svg/boilerplate";
 import SAMLSvg from "../components/svg/saml";
 import QueueSvg from "../components/svg/queue";
-import PartnerProgramSvg from "../components/svg/partner";
+import AdSvg from "../components/svg/advertise";
 import TeamDocsSvg from "../components/svg/team_docs";
 import TitleWithMarker from "../components/titleWithMarker/index";
 import screens from "../utils/responsive";
@@ -17,7 +17,7 @@ import styles from "./styles.module.css";
 
 const features = [
   {
-    title: <>Goodbye Extended Queue Times</>,
+    title: <>Goodbye Queue Times</>,
     description: (
       <>
         Want to sell to Enterprise customers? SAML-based SSO is a requirement.
@@ -37,7 +37,7 @@ const features = [
         your developers to focus on higher-priority work.
       </>
     ),
-    Component: TeamDocsSvg,
+    Component: AdSvg,
   },
 ];
 
