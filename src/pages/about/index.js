@@ -21,7 +21,7 @@ function Pricing() {
       >
         <Row>
           <Col sm={24} md={{ span: 16, offset: 4 }} className={styles.section}>
-            <TitleWithMarker title="About Osso" />
+            <TitleWithMarker title="About Paradise Bots" />
             <p>
               Paradise is The Discord Bot List that strives to provide all Discord Bots & Bot Devs 
               With a little bit of Freedom!! A Discord Bot Lists purpose is to allow Developers 
@@ -33,28 +33,9 @@ function Pricing() {
             </p>
           </Col>
         </Row>
-
-        <Row>
-          <Col sm={24} md={{ span: 16, offset: 4 }} className={styles.section}>
-            <TitleWithMarker title="About Us-so" />
-            <p>
-              After losing work due to the pandemic, we founded Osso with the
-              goal of working together on something that could help other
-              business owners as they grew their own companies. After a few
-              months of user research, development time, and QA, we launched to
-              help make SAML SSO more accessible to startups at all stages of
-              growth.
-            </p>
-            <p>
-              We have led and delivered complex product launches for companies
-              like WeWork, Clearbit, imgix, VaynerMedia, and Vistaprint. We’re
-              also hopelessly addicted to side projects.
-            </p>
-          </Col>
-        </Row>
         <Row gutter={[16, 0]}>
           <Col sm={24} md={{ span: 16, offset: 4 }}>
-            <TitleWithMarker title="The team" />
+            <TitleWithMarker title="The Team" />
           </Col>
         </Row>
         <Row>
@@ -62,7 +43,7 @@ function Pricing() {
             <Row gutter={[16, 0]}>
               <Col xs={12} md={6}>
                 <Card
-                  cover={<img src={useBaseUrl("img/sam_bauch.png")} />}
+                  cover={<img style={{ borderRadius: 20 }} src={useBaseUrl("https://media.discordapp.net/attachments/734686866690932767/804417937863082014/image0.jpg")} />}
                   className={styles.personCard}
                   bordered={false}
                   headStyle={{}}
@@ -73,23 +54,23 @@ function Pricing() {
                     padding: "16px 0 0",
                   }}
                 >
-                  <Card.Meta title="Sam Bauch" description="Engineering" />
+                  <Card.Meta title="Toxic Dev" description="Founder" />
                   <p className={styles.prev}>
-                    Previously:
-                    <br /> Engineering @ Clearbit, WeWork, VaynerMedia
+                    Title(s):
+                    <br /> Developer, Web Admin
                   </p>
                   <div className={styles.social}>
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://linkedin.com/in/sambauch"
+                      href="https://toxicdev.me"
                     >
-                      <LinkedinFilled />
+                      <HomeFilled />
                     </a>
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://github.com/sbauch"
+                      href="https://github.com/TheRealToxicDev"
                     >
                       <GithubFilled />
                     </a>
@@ -97,7 +78,7 @@ function Pricing() {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://twitter.com/sammybauch"
+                      href="https://twitter.com/TheRealToxicDev"
                     >
                       <TwitterSquareFilled />
                     </a>
