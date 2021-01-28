@@ -34,22 +34,15 @@ function Home() {
       <div className={styles.heroContainer}>
         <header className={classnames("hero", styles.heroBanner)}>
           <div className={styles.heroCopy}>
-            <p>Add enterprise-grade SSO to your application today</p>
+            <p>Add your bot and get started with the Paradise API.</p>
             <div className={styles.buttons}>
               <Link to={useBaseUrl("docs/quick-start")}>
                 <Button ghost size="large" className={styles.heroBtn}>
-                  Get started
+                  View our Docs
                 </Button>
               </Link>
             </div>
           </div>
-          {isLargeScreen && (
-            <img
-              className={styles.heroImage}
-              src={"https://paradisebots.net/images/ParadiseBotsLogo.png"}
-              alt="background image"
-            />
-          )}
         </header>
       </div>
       <main>
