@@ -1,8 +1,8 @@
 var path = require("path");
 
 module.exports = {
-  title: "Paradise Bots",
-  tagline: "Authenticate Single Sign On users via SAML",
+  title: "Paradise Bots Docs",
+  tagline: "Official Documentation for Paradise Bot List and its Companion API.",
   url: "https://paradisebots.net",
   baseUrl: "/",
   favicon: "img/ParadiseBotsLogo.png",
@@ -33,10 +33,10 @@ module.exports = {
     },
     image: "img/ParadiseBotsLogo.png",
     metadatas: [
-      { name: "og:image", content: "img/Logo_Card.png" },
+      { name: "og:image", content: "img/ParadiseBotsLogo.png" },
       {
         name: "og:description",
-        content: "Add enterprise-grade SAML SSO to your app today",
+        content: "Official Documentation for Paradise Bot List and its Companion API.",
       },
       { name: "og:type", content: "website" },
     ],
