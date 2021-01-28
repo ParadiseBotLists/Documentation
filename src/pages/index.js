@@ -17,7 +17,7 @@ import styles from "./styles.module.css";
 
 const features = [
   {
-    title: <>Sell to enterprise, fast</>,
+    title: <>Goodbye Long Queues</>,
     description: (
       <>
         Want to sell to Enterprise customers? SAML-based SSO is a requirement.
@@ -29,19 +29,7 @@ const features = [
     Component: QueueSvg,
   },
   {
-    title: <>Ship, faster</>,
-    description: (
-      <>
-        Osso's SAML-based solution lets your customers use their preferred
-        Identity Providers to sign into your application. It's quick to
-        integrate, too: what is typically a multi-week project can be deployed
-        in just a few hours.
-      </>
-    ),
-    Component: PartnerProgramSvg,
-  },
-  {
-    title: <>Free up your dev team</>,
+    title: <>Hello Freedom</>,
     description: (
       <>
         With its intuitive UI and custom docs, Osso will enable your customer
