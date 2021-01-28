@@ -17,7 +17,7 @@ import styles from "./styles.module.css";
 
 const features = [
   {
-    title: <>Goodbye Long Queues</>,
+    title: <>Goodbye Extended Queue Times</>,
     description: (
       <>
         Want to sell to Enterprise customers? SAML-based SSO is a requirement.
@@ -29,7 +29,7 @@ const features = [
     Component: QueueSvg,
   },
   {
-    title: <>Hello Freedom</>,
+    title: <>Hello Advertising Freedom</>,
     description: (
       <>
         With its intuitive UI and custom docs, Osso will enable your customer
