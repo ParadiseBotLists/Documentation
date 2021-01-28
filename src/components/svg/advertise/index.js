@@ -15,7 +15,7 @@ export default () => {
       xmlns="http://www.w3.org/2000/svg">
       <image 
          href="https://www.freepnglogos.com/uploads/advertising-png/advertising-icon-computer-mouse-ads-screen-15.jpg"
-         style={{ color: white, borderRadius: 20 }}
+         style={{ tintColor: 'white', borderRadius: 20 }}
       />
     </svg>
   );
