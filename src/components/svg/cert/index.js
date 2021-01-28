@@ -13,7 +13,7 @@ export default () => {
       viewBox="0 0 156 337"
       fill="none"
       xmlns="http://www.w3.org/2000/svg">
-      <image href="https://media.discordapp.net/attachments/747390406722977863/760792636436250644/cert.png" />
+      <image href="https://icon2.cleanpng.com/20180705/xfb/kisspng-geralt-of-rivia-samsung-the-witcher-queue-icon-5b3e429e825e17.351478151530806942534.jpg" />
     </svg>
   );
 };
