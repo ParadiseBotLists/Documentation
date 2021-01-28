@@ -70,6 +70,13 @@ function Home() {
               </Link>
             </div>
           </div>
+          {isLargeScreen && (
+            <img
+              className={styles.heroImage}
+              src={"/img/ParadiseBotsLogo.png"}
+              alt="background image"
+            />
+          )}
         </header>
       </div>
       <main>
