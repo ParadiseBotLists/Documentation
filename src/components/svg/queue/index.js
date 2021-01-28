@@ -15,7 +15,7 @@ export default () => {
       xmlns="http://www.w3.org/2000/svg">
       <image 
          href="https://www.pngkey.com/png/detail/922-9220584_leaving-queue-icon.png"
-         style={{ width: 200, height: 200, border-radius: 20 }}
+         style={{ width: 200, height: 200, borderRadius: 20 }}
       />
     </svg>
   );
