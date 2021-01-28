@@ -41,7 +41,7 @@ module.exports = {
       { name: "og:type", content: "website" },
     ],
     navbar: {
-      title: "PBL",
+      title: "PBL Docs",
       logo: {
         alt: "Paradise Logo",
         src: "img/ParadiseBotsLogo.png",
@@ -58,7 +58,7 @@ module.exports = {
         { to: "pricing", label: "Pricing", position: "left" },
         { to: "about", label: "About", position: "right" },
         {
-          href: "https://github.com/enterprise-oss/osso",
+          href: "https://github.com/Paradise-Bots",
           position: "right",
           className: "header-github-link",
           "aria-label": "GitHub repository",
@@ -66,6 +66,12 @@ module.exports = {
         {
           to: "https://beta.paradisebots.net",
           label: "Beta Site",
+          position: "left",
+          rel: "noopener noreferrer nofollow",
+        },
+        {
+          to: "https://paradisebots.net",
+          label: "Main Site",
           position: "left",
           rel: "noopener noreferrer nofollow",
         },
