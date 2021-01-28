@@ -13,7 +13,10 @@ export default () => {
       viewBox="0 0 156 337"
       fill="none"
       xmlns="http://www.w3.org/2000/svg">
-      <image href="https://cdn.discordapp.com/attachments/747390406722977863/760791912642117661/image0.png" height="100" width="100"/>
+      <image 
+         href="https://www.freepnglogos.com/uploads/advertising-png/advertising-icon-computer-mouse-ads-screen-15.jpg"
+         style={{ height: 300, width: 300, borderRadius: 20 }}
+      />
     </svg>
   );
 };
