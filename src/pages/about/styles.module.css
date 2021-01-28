@@ -47,7 +47,7 @@
   .row:before {
     content: "";
     display: block;
-    border-bottom: 1px solid #FFCD83;
+    border-bottom: 1px solid #758ACF;
     margin: 56px 0;
     width: 100%;
   }
