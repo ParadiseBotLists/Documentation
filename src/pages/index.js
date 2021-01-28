@@ -26,7 +26,7 @@ const features = [
         bigger deals.
       </>
     ),
-    Component: QueueSvg,
+    /* Component: QueueSvg, */
   },
   {
     title: <>Hello Advertising Freedom</>,
@@ -37,7 +37,7 @@ const features = [
         your developers to focus on higher-priority work.
       </>
     ),
-    Component: TeamDocsSvg,
+    /* Component: TeamDocsSvg, */
   },
 ];
 
@@ -71,7 +71,7 @@ function Home() {
       <main>
         <section className={styles.features}>
           <div className="container">
-            {features.map(({ title, description, Component }, idx) => (
+            {features.map(({ title, description, /* Component } */, idx) => (
               <div key={idx} className={classnames("row", styles.row)}>
                 <div className="col">
                   <TitleWithMarker title={title} />
