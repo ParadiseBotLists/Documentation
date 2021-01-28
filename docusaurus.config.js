@@ -5,7 +5,7 @@ module.exports = {
   tagline: "Authenticate Single Sign On users via SAML",
   url: "https://paradisebots.net",
   baseUrl: "/",
-  favicon: "https://paradisebots.net/images/ParadiseBotsLogo.png",
+  favicon: "img/ParadiseBotsLogo.png",
   organizationName: "ParadiseBotList",
   projectName: "ParadiseDocs-v3",
   stylesheets: [
@@ -31,9 +31,9 @@ module.exports = {
     googleAnalytics: {
       trackingID: "UA-177630158-1",
     },
-    image: "img/OGImage.png",
+    image: "img/ParadiseBotsLogo.png",
     metadatas: [
-      { name: "twitter:image", content: "img/Logo_Card.png" },
+      { name: "og:image", content: "img/Logo_Card.png" },
       {
         name: "og:description",
         content: "Add enterprise-grade SAML SSO to your app today",
@@ -41,11 +41,11 @@ module.exports = {
       { name: "og:type", content: "website" },
     ],
     navbar: {
-      title: "Paradise Bots",
+      title: "PBL",
       logo: {
         alt: "Paradise Logo",
-        src: "https://paradisebots.net/images/ParadiseBotsLogo.png",
-        srcDark: "https://paradisebots.net/images/ParadiseBotsLogo.png",
+        src: "img/ParadiseBotsLogo.png",
+        srcDark: "img/ParadiseBotsLogo.png",
       },
       items: [
         {
@@ -64,8 +64,8 @@ module.exports = {
           "aria-label": "GitHub repository",
         },
         {
-          to: "https://demo.ossoapp.com",
-          label: "Demo",
+          to: "https://beta.paradisebots.net",
+          label: "Beta Site",
           position: "left",
           rel: "noopener noreferrer nofollow",
         },
