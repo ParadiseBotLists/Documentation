@@ -14,8 +14,8 @@ export default function paidCallout({ message }) {
       <span className={styles.message}>
         {message || (
           <span>
-            This article is under construction. Please{" "}
-            <a href="mailto:hello@ossoapp.com" target="_blank" rel="noreferrer">
+            This area is under construction. Please check back soon or {" "}
+            <a href="mailto:support@paradisebots.net" target="_blank" rel="noreferrer">
               reach out
             </a>{" "}
             if you need help.
