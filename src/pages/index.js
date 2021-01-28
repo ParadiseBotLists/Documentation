@@ -26,7 +26,6 @@ const features = [
         bigger deals.
       </>
     ),
-    /* Component: QueueSvg, */
   },
   {
     title: <>Hello Advertising Freedom</>,
@@ -37,7 +36,6 @@ const features = [
         your developers to focus on higher-priority work.
       </>
     ),
-    /* Component: TeamDocsSvg, */
   },
 ];
 
@@ -76,9 +74,6 @@ function Home() {
                 <div className="col">
                   <TitleWithMarker title={title} />
                   <p>{description}</p>
-                </div>
-                <div className={classnames("col", styles.imageContainer)}>
-                  <Component />
                 </div>
               </div>
             ))}
