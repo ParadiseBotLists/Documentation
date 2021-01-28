@@ -36,7 +36,7 @@ const features = [
         in just a few hours.
       </>
     ),
-    Component: "https://cdn.discordapp.com/attachments/747390406722977863/760791912642117661/image0.png",
+    image: "https://cdn.discordapp.com/attachments/747390406722977863/760791912642117661/image0.png",
   },
   {
     title: <>Free up your dev team</>,
@@ -47,7 +47,7 @@ const features = [
         your developers to focus on higher-priority work.
       </>
     ),
-    Component: TeamDocsSvg,
+    image: TeamDocsSvg,
   },
 ];
 
@@ -73,7 +73,7 @@ function Home() {
       <main>
         <section className={styles.features}>
           <div className="container">
-            {features.map(({ title, description, Component }, idx) => (
+            {features.map(({ title, description, image }, idx) => (
               <div key={idx} className={classnames("row", styles.row)}>
                 <div className="col">
                   <TitleWithMarker title={title} />
