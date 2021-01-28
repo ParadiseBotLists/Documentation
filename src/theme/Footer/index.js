@@ -23,11 +23,11 @@ function Footer() {
         <div className={styles.footerRow}>
           {isLargeScreen && (
             <div className={styles.footerCol}>
-              <a href="mailto:hello@enterpriseoss.dev">
-                hello@enterpriseoss.dev
+              <a href="mailto:support@paradisebots.net">
+                support@paradisebots.net
               </a>
-              <p>Osso © EnterpriseOSS, Inc.</p>
-              <p>Brooklyn, NY</p>
+              <p>2021 © Paradise Bots, LLC.</p>
+              <p>Calgary, AB</p>
             </div>
           )}
           {isLargeScreen && (
@@ -40,7 +40,7 @@ function Footer() {
               >
                 <input type="hidden" name="form-name" value="email-list" />
                 <label htmlFor="footer-email">
-                  Enter your email to receive updates from Osso
+                  Enter your email to receive updates from Paradise
                 </label>
                 <Input.Group>
                   <Input
@@ -55,10 +55,10 @@ function Footer() {
             </div>
           )}
           <div className={styles.footerCol}>
-            {false && <Link to="/faq">F.A.Q.</Link>}
-            <a href="/legal/cookie">Cookie Policy</a>
-            <a href="/legal/privacy">Privacy Policy</a>
-            <a href="/legal/terms-conditions">Legal Terms</a>
+            {false && <Link to="https://paradisebots.net/discord">F.A.Q.</Link>}
+            <a href="https://paradisebots.net/staff">Staff List</a>
+            <a href="https://paradisebots.net/legal#privacy">Privacy Policy</a>
+            <a href="https://paradisebots.net/legal#terms">Legal Terms</a>
           </div>
         </div>
       </div>
