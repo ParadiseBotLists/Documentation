@@ -13,7 +13,10 @@ export default () => {
       viewBox="0 0 156 337"
       fill="none"
       xmlns="http://www.w3.org/2000/svg">
-      <image href="https://www.pngkey.com/png/detail/922-9220584_leaving-queue-icon.png" />
+      <image 
+         href="https://www.pngkey.com/png/detail/922-9220584_leaving-queue-icon.png"
+         style={{ borderRadius: 20 }}
+      />
       <path
         d="M75.8712 249.55C75.5648 249.526 75.3476 249.237 75.4145 248.937L77.5482 239.369C77.678 238.787 78.5343 238.88 78.5362 239.477L78.5661 249.278C78.567 249.585 78.2935 249.82 77.9893 249.778C77.2894 249.682 76.5832 249.606 75.8712 249.55Z"
         className={styles.svgElem1}
