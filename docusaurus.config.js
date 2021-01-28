@@ -55,7 +55,6 @@ module.exports = {
           position: "left",
         },
         { to: "blog", label: "Blog", position: "left" },
-        { to: "pricing", label: "Pricing", position: "left" },
         { to: "about", label: "About", position: "right" },
         {
           href: "https://github.com/Paradise-Bots",
@@ -64,14 +63,14 @@ module.exports = {
           "aria-label": "GitHub repository",
         },
         {
-          to: "https://beta.paradisebots.net",
-          label: "Beta Site",
+          to: "https://paradisebots.net",
+          label: "Main Site",
           position: "left",
           rel: "noopener noreferrer nofollow",
         },
         {
-          to: "https://paradisebots.net",
-          label: "Main Site",
+          to: "https://beta.paradisebots.net",
+          label: "Beta Site",
           position: "left",
           rel: "noopener noreferrer nofollow",
         },
