@@ -1,13 +1,13 @@
 var path = require("path");
 
 module.exports = {
-  title: "Osso",
+  title: "Paradise Bots",
   tagline: "Authenticate Single Sign On users via SAML",
-  url: "https://ossoapp.com",
+  url: "https://paradisebots.net",
   baseUrl: "/",
-  favicon: "img/favicon.ico",
-  organizationName: "enterprise-oss",
-  projectName: "osso-docs",
+  favicon: "https://paradisebots.net/images/ParadiseBotsLogo.png",
+  organizationName: "ParadiseBotList",
+  projectName: "ParadiseDocs-v3",
   stylesheets: [
     "https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&display=swap",
     "https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap",
@@ -73,7 +73,7 @@ module.exports = {
     },
     posthog: {
       apiKey: process.env.POSTHOG_API_KEY || "no",
-      appUrl: "https://a.ossoapp.com",
+      appUrl: "https://a.paradisebots.net",
       enableInDevelopment: false,
     },
     footer: {
@@ -87,16 +87,12 @@ module.exports = {
           title: "Social",
           items: [
             {
-              label: "Blog",
-              to: "blog",
-            },
-            {
               label: "GitHub",
-              href: "https://github.com/enterprise-oss/osso",
+              href: "https://github.com/ParadiseBotList",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/osso",
+              href: "https://twitter.com/ParadiseBotList",
             },
           ],
         },
@@ -119,7 +115,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/enterprise-oss/osso-docs/edit/main/",
+          editUrl: "https://github.com/TheRealToxicDev/ParadiseDocs-v3/edit/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
