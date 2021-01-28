@@ -14,7 +14,7 @@ export default () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg">
       <image 
-         href="https://www.pngkey.com/png/detail/922-9220584_leaving-queue-icon.png"
+         href="https://static.thenounproject.com/png/640515-200.png"
          style={{ width: 200, height: 200 }}
       />
     </svg>
