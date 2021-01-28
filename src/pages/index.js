@@ -77,7 +77,7 @@ function Home() {
                   <TitleWithMarker title={title} />
                   <p>{description}</p>
                 </div>
-                </div>
+              </div>
             ))}
           </div>
         </section>
