@@ -62,8 +62,8 @@ function Home() {
             <img
               className={styles.heroImage}
               src={"/img/ParadiseBotsLogo.png"}
-              alt="background image"
-              style={{ width: 250, height: 250, position: 'center' }}
+              alt="Paradise Bots Logo"
+              style={{ width: 300, height: 300, position: 'center' }}
             />
           )}
         </header>
