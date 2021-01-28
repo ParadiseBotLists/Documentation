@@ -71,7 +71,7 @@ function Home() {
           {isLargeScreen && (
             <img
               className={styles.heroImage}
-              src={"img/losso2.svg"}
+              src={"https://paradisebots.net/images/ParadiseBotsLogo.png"}
               alt="background image"
             />
           )}
