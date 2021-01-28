@@ -27,7 +27,7 @@ function Pricing() {
               With a little bit of Freedom!! A Discord Bot Lists purpose is to allow Developers 
               to Advertise their Bot for other people to use (No strings attached) 
               We allow you to do just that, Now days we see way to many Bot Lists 
-              who focus to much on Policing the T.O.S. No offence of course to the good Bot Lists (You lnow who you are) 
+              who focus to much on Policing the T.O.S. No offence of course to the good Bot Lists (You know who you are) 
               The only “Term” we “police” is where your Bot posts NSFW Content if any (NSFW Channels only)
               And of course with Paradise you can say goodbye to extended queue times.
             </p>
