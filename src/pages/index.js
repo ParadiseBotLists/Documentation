@@ -24,7 +24,7 @@ const features = [
         bigger deals.
       </>
     ),
-    Component: "https://cdn.discordapp.com/attachments/747390406722977863/760792636436250644/cert.png",
+    image: "https://cdn.discordapp.com/attachments/747390406722977863/760792636436250644/cert.png",
   },
   {
     title: <>Ship, faster</>,
