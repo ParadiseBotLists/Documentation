@@ -1,8 +1,9 @@
 .svg {
   margin: 0 auto;
   display: block;
-  max-width: 200px;
+  max-width: 300px;
   color: #758acf;
+  fill: #758acf;
 }
 
 .svg .svgElem1 {
