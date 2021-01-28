@@ -1,0 +1,7 @@
+.svg {
+  display: inline-block;
+}
+
+.connector {
+  stroke: var(--ifm-landing-page-font-color);
+}
