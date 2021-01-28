@@ -23,11 +23,13 @@ function Pricing() {
           <Col sm={24} md={{ span: 16, offset: 4 }} className={styles.section}>
             <TitleWithMarker title="About Osso" />
             <p>
-              You&apos;ve worked hard building your product. Your customers want
-              SAML sign-on, but it’s complex and time-consuming to build and
-              support. Osso was made so that you and your team can focus on the
-              stuff you love, without getting bogged down by the details of SAML
-              integration.
+              Paradise is The Discord Bot List that strives to provide all Discord Bots & Bot Devs 
+              With a little bit of Freedom!! A Discord Bot Lists purpose is to allow Developers 
+              to Advertise their Bot for other people to use (No strings attached) 
+              We allow you to do just that, Now days we see way to many Bot Lists 
+              who focus to much on Policing the T.O.S. No offence of course to the good Bot Lists (You lnow who you are) 
+              The only “Term” we “police” is where your Bot posts NSFW Content if any (NSFW Channels only)
+              And of course with Paradise you can say goodbye to extended queue times.
             </p>
           </Col>
         </Row>
