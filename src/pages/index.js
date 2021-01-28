@@ -24,7 +24,7 @@ const features = [
         bigger deals.
       </>
     ),
-    Component: SAMLSvg,
+    Component: "https://cdn.discordapp.com/attachments/747390406722977863/760792636436250644/cert.png",
   },
   {
     title: <>Ship, faster</>,
@@ -36,7 +36,7 @@ const features = [
         in just a few hours.
       </>
     ),
-    Component: BoilerplateSvg,
+    Component: "https://cdn.discordapp.com/attachments/747390406722977863/760791912642117661/image0.png",
   },
   {
     title: <>Free up your dev team</>,
