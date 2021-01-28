@@ -8,8 +8,8 @@ import { useMediaQuery } from "react-responsive";
 
 import BoilerplateSvg from "../components/svg/boilerplate";
 import SAMLSvg from "../components/svg/saml";
-import certSVG from "../components/svg/cert";
-import partnerSVG from "../components/svg/partner";
+import CertProgramSvg from "../components/svg/cert";
+import PartnerProgramSvg from "../components/svg/partner";
 import TeamDocsSvg from "../components/svg/team_docs";
 import TitleWithMarker from "../components/titleWithMarker/index";
 import screens from "../utils/responsive";
@@ -26,7 +26,7 @@ const features = [
         bigger deals.
       </>
     ),
-    Component: certSVG,
+    Component: CertProgramSvg,
   },
   {
     title: <>Ship, faster</>,
@@ -38,7 +38,7 @@ const features = [
         in just a few hours.
       </>
     ),
-    Component: partnerSVG,
+    Component: PartnerProgramSvg,
   },
   {
     title: <>Free up your dev team</>,
