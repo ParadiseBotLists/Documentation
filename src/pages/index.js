@@ -61,7 +61,7 @@ function Home() {
       <div className={styles.heroContainer}>
         <header className={classnames("hero", styles.heroBanner)}>
           <div className={styles.heroCopy}>
-            <p>Add your bot and get started with the Paradise API.</p>
+            <p>Check out our Documentation and Common Use Cases reagarding the Paradise Bots API.</p>
             <div className={styles.buttons}>
               <Link to={useBaseUrl("docs/quick-start")}>
                 <Button ghost size="large" className={styles.heroBtn}>
