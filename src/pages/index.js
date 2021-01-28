@@ -75,6 +75,7 @@ function Home() {
               className={styles.heroImage}
               src={"/img/ParadiseBotsLogo.png"}
               alt="background image"
+              style={{ width: 120, height: 120 }}
             />
           )}
         </header>
