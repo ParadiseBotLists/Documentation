@@ -7,7 +7,7 @@
 import "@enterprise-oss/ant-theme";
 import "./styles.css";
 
-import AnnouncementBar from "@theme/AnnouncementBar";
+//import AnnouncementBar from "@theme/AnnouncementBar";
 import Footer from "@theme/Footer";
 import useKeyboardNavigation from "@theme/hooks/useKeyboardNavigation";
 import LayoutHead from "@theme/LayoutHead";
@@ -25,8 +25,6 @@ function Layout(props) {
       <LayoutHead {...props} />
 
       <SkipToContent />
-
-      <AnnouncementBar />
 
       <Navbar />
 
