@@ -15,39 +15,14 @@ import styles from "./styles.module.css";
 
 const features = [
   {
-    title: <>Sell to enterprise, fast</>,
+    title: <>Paradise Bots Docs.</>,
     description: (
       <>
-        Want to sell to Enterprise customers? SAML-based SSO is a requirement.
-        Osso integrates with all of the most popular Identity Providers so that
-        you can check off another box on your sales pitch and start closing
-        bigger deals.
+        This site contains support documentation on the Paradise Bot List project 
+        and its companion Web App & API, including documentation about 
+        features, management bot commands, and tutorials on common use cases.
       </>
     ),
-    Component: SAMLSvg,
-  },
-  {
-    title: <>Ship, faster</>,
-    description: (
-      <>
-        Osso's SAML-based solution lets your customers use their preferred
-        Identity Providers to sign into your application. It's quick to
-        integrate, too: what is typically a multi-week project can be deployed
-        in just a few hours.
-      </>
-    ),
-    Component: BoilerplateSvg,
-  },
-  {
-    title: <>Free up your dev team</>,
-    description: (
-      <>
-        With its intuitive UI and custom docs, Osso will enable your customer
-        success teams (or users!) to handle onboarding and support, freeing up
-        your developers to focus on higher-priority work.
-      </>
-    ),
-    Component: TeamDocsSvg,
   },
 ];
 
