@@ -13,7 +13,7 @@ export default () => {
       viewBox="0 0 156 337"
       fill="none"
       xmlns="http://www.w3.org/2000/svg">
-      <image href="https://icon2.cleanpng.com/20180705/xfb/kisspng-geralt-of-rivia-samsung-the-witcher-queue-icon-5b3e429e825e17.351478151530806942534.jpg" />
+      <image href="https://www.pngkey.com/png/detail/922-9220584_leaving-queue-icon.png" />
     </svg>
   );
 };
