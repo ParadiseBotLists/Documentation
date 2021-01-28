@@ -41,11 +41,11 @@ module.exports = {
       { name: "og:type", content: "website" },
     ],
     navbar: {
-      title: "Osso",
+      title: "Paradise Bots",
       logo: {
-        alt: "Osso Logo",
-        src: "img/logo.svg",
-        srcDark: "img/logo-alt.svg", // Default to `logo.src`.
+        alt: "Paradise Logo",
+        src: "https://paradisebots.net/images/ParadiseBotsLogo.png",
+        srcDark: "https://paradisebots.net/images/ParadiseBotsLogo.png",
       },
       items: [
         {
