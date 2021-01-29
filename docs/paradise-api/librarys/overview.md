@@ -1,7 +1,7 @@
 ---
 id: overview
-title: API Library's
-sidebar_label: Overview
+title: API Modules
+sidebar_label: Introduction
 ---
 
 The Paradise API is available as a Wrapper/Module for Multiple Programming Languages, All of which can be found here
