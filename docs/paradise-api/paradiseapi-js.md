@@ -1,7 +1,7 @@
 ---
-id: paradiseapi-js
-title: paradiseapi.js
-sidebar_label: 'paradiseapi.js'
+id: paradisebotsapi.js
+title: paradisebotsapi.js
+sidebar_label: 'paradisebotsapi.js'
 ---
 
 import UnderConstruction from '../../src/components/constructionCallout'
