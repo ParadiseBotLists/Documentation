@@ -14,12 +14,12 @@ export default function paidCallout({ message }) {
       <span className={styles.message}>
         {message || (
           <span>
-            The content of this article applies to the open source version of
-            Osso and is not relevant to our{" "}
-            <Link to="/pricing">paid plans</Link>. If you&apos;re already an
-            Osso customer,{" "}
-            <Link to="/docs/configure/overview">
-              skip ahead to Configuration
+            The content of this article applies to Paradise Bots
+              and is not relevant to our{" "}
+            <Link to="/docs">docs</Link>. If you&apos;re already a
+            Paradise user,{" "}
+            <Link to="https://paradisebots.net/discord">
+              Go to our discord
             </Link>
             .
           </span>
