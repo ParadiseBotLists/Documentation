@@ -5,6 +5,7 @@ import { Button } from "antd";
 import classnames from "classnames";
 import React from "react";
 import { useMediaQuery } from "react-responsive";
+import Center from 'react-center-tag';
 
 import BoilerplateSvg from "../components/svg/boilerplate";
 import SAMLSvg from "../components/svg/saml";
@@ -82,7 +83,8 @@ function Home() {
               </div>
             ))}
             <div className="col">
-               <TitleWithMarker title="Paradise Discord" />
+               <TitleWithMarker title="" />
+               <Center>
                <iframe 
                  src="https://discordapp.com/widget?id=748977820457238530&theme=dark" 
                  width="350" 
@@ -91,6 +93,7 @@ function Home() {
                  frameborder="0" 
                  sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
               </iframe>
+             </Center>
             </div>
           </div>
         </section>
