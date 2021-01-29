@@ -23,7 +23,7 @@ module.exports = {
     announcementBar: {
       id: "support_us", // Any value that will identify this message.
       content:
-        'Osso v1.0.0.rc is out! 🎉 🍾 Read our <a href="/blog/1-0-0-release-candidate">launch blog post</a>.',
+        Paradise Bots v3 Update 🎉 🍾 Read the official <a href="/blog/1-0-0-release-candidate">blog post</a>.',
       backgroundColor: "#fafbfc", // Defaults to `#fff`.
       textColor: "#091E42", // Defaults to `#000`.
       isCloseable: false, // Defaults to `true`.
