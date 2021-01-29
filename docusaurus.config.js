@@ -96,7 +96,7 @@ module.exports = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/ParadiseBotList",
+              href: "https://github.com/Paradise-Bots",
             },
             {
               label: "Twitter",
