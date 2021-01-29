@@ -1,7 +1,7 @@
 ---
 id: overview
-title: Resource Documentation
-sidebar_label: 'Resources - Overview'
+title: Paradise Bots Resources
+sidebar_label: 'Introduction'
 ---
 
 import UnderConstruction from '../../src/components/constructionCallout'
