@@ -22,6 +22,11 @@ module.exports = {
             },
           ],
         },
+        {
+          Resources: [
+            "paradise-api/resources/voting",
+           ],
+         },
       ],
     },
     {
