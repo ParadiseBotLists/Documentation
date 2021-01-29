@@ -3,7 +3,7 @@ var path = require("path");
 module.exports = {
   title: "Paradise Bots Docs",
   tagline: "Official Documentation for Paradise Bot List and its Companion API.",
-  url: "https://paradisebots.net",
+  url: "https://support.paradisebots.net",
   baseUrl: "/",
   favicon: "img/ParadiseBotsLogo.png",
   organizationName: "ParadiseBotList",
