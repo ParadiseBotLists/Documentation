@@ -1,5 +1,5 @@
 ---
-id: overview
+id: reference
 title: API Reference
 sidebar_label: API Reference
 ---
