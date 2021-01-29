@@ -82,7 +82,7 @@ function Home() {
               </div>
             ))}
             <div className="col">
-               <TitleWithMarker title={title} />
+               <TitleWithMarker title="Paradise Discord" />
                <iframe 
                  src="https://discordapp.com/widget?id=748977820457238530&theme=dark" 
                  width="350" 
