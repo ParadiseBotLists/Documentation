@@ -1,6 +1,6 @@
 {
-  "name": "osso-docs",
-  "version": "1.0.0",
+  "name": "docs.paradisebots.net",
+  "version": "3.0.0",
   "private": true,
   "scripts": {
     "start": "docusaurus start",
