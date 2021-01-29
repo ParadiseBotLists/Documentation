@@ -1,7 +1,7 @@
 module.exports = {
   someSidebar: [
     "overview",
-    "intro",
+    "quick-start",
     {
       type: "category",
       label: "How to deploy Osso",
