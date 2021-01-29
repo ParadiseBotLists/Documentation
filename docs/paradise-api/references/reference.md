@@ -15,7 +15,7 @@ date | Number | The date of the vote.
 
 ## Voting Endpoint (Linked to Bot)
 ```
-bots/:botid/vote
+/bots/:botid/vote
 ```
 
 ---
