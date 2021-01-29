@@ -1,6 +1,5 @@
 module.exports = {
   someSidebar: [
-    "overview",
     "quick-start",
     {
       type: "category",
