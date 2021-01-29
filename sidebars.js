@@ -22,7 +22,7 @@ module.exports = {
       type: "category",
       label: "Resource Documentation",
       items: [
-        "community/overview",
+        "resources/overview",
       ],
     },
   ],
