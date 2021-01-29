@@ -22,7 +22,7 @@ module.exports = {
     },
     announcementBar: {
       id: "support_us", // Any value that will identify this message.
-      content: 'Paradise Bots v3 is in the works 🎉 🍾 Read the official <a href="/blog/1-0-0-release-candidate">blog post</a>.',
+      content: 'Paradise Bots v3 is in the works 🎉 🍾 Read the official <a href="/blog/pbl-v3-update">blog post</a>.',
       backgroundColor: "#fafbfc", // Defaults to `#fff`.
       textColor: "#091E42", // Defaults to `#000`.
       isCloseable: false, // Defaults to `true`.
