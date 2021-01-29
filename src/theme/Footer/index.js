@@ -27,7 +27,6 @@ function Footer() {
                 support@paradisebots.net
               </a>
               <p>2021 © Paradise Bots, LLC.</p>
-              <p>Calgary, AB</p>
             </div>
           )}
           {isLargeScreen && (
