@@ -25,7 +25,7 @@ module.exports = {
       content: 'Paradise Bots v3 🎉 🍾 Read the official <a href="/blog/pbl-v3-update">blog post</a>.',
       backgroundColor: "#fafbfc", // Defaults to `#fff`.
       textColor: "#091E42", // Defaults to `#000`.
-      isCloseable: false, // Defaults to `true`.
+      isCloseable: true, // Defaults to `true`.
     },
     googleAnalytics: {
       trackingID: "UA-177630158-1",
