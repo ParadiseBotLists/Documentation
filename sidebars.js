@@ -9,8 +9,8 @@ module.exports = {
         "paradise-api/reference",
         {
           Librarys: [
-            "paradise-api/paradiseapi.js",
-            "paradise-api/paradiseapi.py",
+            "paradise-api/librarys/overview",
+            "paradise-api/librarys/javascript/paradiseapi.js",
              {
               JavaScript: [
                 "paradise-api/paradiseapi.js",
