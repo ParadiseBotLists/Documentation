@@ -1,29 +1,63 @@
 ---
 id: overview
-title: An overview of Osso
-sidebar_label: Overview
+title: API Reference
+sidebar_label: API Reference
 ---
 
-### What is SAML-based SSO and why is it important?
+Our API is a HTTPS/REST for general operations such as sending POST requests and receiving GET requests
 
-Enterprise companies use Identity Provider (IDP) services like Okta and OneLogin, or on-premise solutions like Active Directory, to centralize employee access and identity. Employees log in once to this identity layer, and use it to access applications they need for their daily work. Authentication is shared between the IDP and Service Provider (SP) applications in what's known as SSO - Single Sign On.
+---
 
-Security Assertion Markup Language (SAML) is an open specification that enables SSO. Similar to OAuth, authenticating a user with SAML requires configuration between your application and the Identity Provider. You provide customer-specific secrets about your application to your customer, and they configure your app and return some secrets from their IDP that you must persist to complete configuration on your end. Authentication can then be performed in a multi-step exchange to securely authenticate a user for that customer's IDP.
+###### Base URL
 
-SAML SSO is a requirement for enterprise companies, but they must be onboarded individually in a multi-step configuration. A SAML implementation requires configuration UI, documentation, and a scalable engineering system for persisting configuration data and signing SAML users in using the right IDP.
+```markdown
+https://paradisebots.net/api/v1
+```
 
-### What is Osso?
+---
 
-Osso provides a service for authenticating users against SAML-based Identity Providers. Osso includes all of the functionality needed to configure SAML Identity Providers for your customers and begin signing them in to your application. What is typically a multi-week project of building a scalable, sellable and serviceable SAML integration becomes just a few hours of work with Osso.
+## Authentication
+To access our API you need to authorize yourself, this can be done by using your Paradise Bot List Token. Your token can be obtained from your Bots page when you are logged into the site. 
+Authentication is performed with the Authorization HTTP header in the format `"authorization": "TOKEN"`
 
-When your team needs to onboard a new enterprise customer to use SAML, a colleague can use Osso to onboard the customer and generate bespoke documentation instructing them how to configure your application in their Identity Provider. Once complete, the customer returns some data like an x509 certificate that your colleague uploads to Osso, completing configuration for that Identity Provider.
+---
 
-On the engineering side, you'll consume your Osso instance's OAuth server from your own application. You send users who want to sign in via SAML to your Osso instance as part of an OAuth 2.0 authorization code grant flow. Based on a user's email or domain, if Osso finds a configured Identity Provider, Osso will complete the SAML authentication, and you'll receive a normalized user profile describing the user.
+## Required Data
+The following params should be provided as the `body` or `payload` of your request when posting stats to our site.
 
-### How does Osso help me?
+---
 
-Integrating SAML can seem like a simple project you can implement yourself, and plenty of companies do. The SAML spec itself isn't terribly complicated, but if your company is that the stage where you need SAML, you also know that adding a new feature to your application has costs outside of the initial engineering - maintenance, internal education, documentation and support are important factors to consider when adding a customer-facing feature, especially a feature your most valuable customers encounter right off the bat.
+###### Parameters
+Param | Type | Optional | Description
+|----------|----------|----------|----------|
+server_count | Number | No | The Server Count of the bot requesting to post stats.
+shard_count | Number | No | The Shard Count of the bot requesting to post stats.
 
-Osso's software primarily saves your development team cycles they'd rather spend working on more interesting tasks. But Osso's usability and documentation may provide the biggest value to your organization. When implementing SAML yourself, your team might cut corners on a clunky internal admin UI, create unclear documentation for customers, or miss engineering edge cases an enterprise customer is sure to hit.
+---
 
-Let Osso handle SAML and roll out SSO with confidence and ease.
+## Available Data
+The following data is available through our site using GET methods.
+
+---
+
+###### Arguments
+Arg | Type | Optional | Description
+|----------|----------|----------|----------|
+username | String | Yes | The bots username.
+botid | Snowflake | Yes | The bots ID.
+owner | Snowflake | Yes | The bot owners ID.
+additionalOwners | String | Yes | The IDs of all additional owners (if any).
+Prefix | String | Yes | The bots listed prefix(s).
+shortDescription | String | Yes | The bots short description (Shown on cards).
+longDescription | String | Yes | The bots long description (Can be markdown).
+votes | Number | Yes | The bots total number of upvotes.
+usersVoted | String | Yes |IDs of the last 10 users who voted (May return less).
+totalUsersVoted | Number | Yes | Total number of Individual Users who have voted (Each user = 1).
+server | String | Yes | Link to the bots support server.
+website | String | Yes | Link to the bots website.
+github | String | Yes | Link to the bots github.
+donate | String | Yes | Link to donate to the bot.
+tags | String | Yes | List of the bots tags.
+library | String | Yes | The library the bot was made with.
+servers | Number | Yes | Number of total servers the bot is in.
+shards | Number | Yes | Number of total shards the bot has.
