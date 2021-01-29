@@ -51,14 +51,14 @@ function Footer() {
               </form>
             </div>
             }) 
-      {isLargeScreen && (
-          <div className={styles.footerCol}>
-            {false && <Link to="https://paradisebots.net/discord">F.A.Q.</Link>}
-            <a href="https://paradisebots.net/staff">Staff List</a>
-            <a href="https://paradisebots.net/legal#privacy">Privacy Policy</a>
-            <a href="https://paradisebots.net/legal#terms">Legal Terms</a>
-          </div>
-          })
+           {isLargeScreen && (
+             <div className={styles.footerCol}>
+              {false && <Link to="https://paradisebots.net/discord">F.A.Q.</Link>}
+               <a href="https://paradisebots.net/staff">Staff List</a>
+               <a href="https://paradisebots.net/legal#privacy">Privacy Policy</a>
+               <a href="https://paradisebots.net/legal#terms">Legal Terms</a>
+             </div>
+            })
         </div>
       </div>
     </footer>
