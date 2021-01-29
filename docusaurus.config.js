@@ -15,7 +15,7 @@ module.exports = {
   themeConfig: {
     algolia: {
       apiKey: "83fedff8cf4b3c8c307860d884c83b58",
-      indexName: "paradiseapp",		
+      indexName: "website",		
       searchParamaters: {
         appId: "160PZ84HU3",
       },
