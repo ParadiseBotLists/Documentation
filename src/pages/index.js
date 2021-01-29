@@ -5,7 +5,6 @@ import { Button } from "antd";
 import classnames from "classnames";
 import React from "react";
 import { useMediaQuery } from "react-responsive";
-//import Center from 'react-center-tag';
 
 import BoilerplateSvg from "../components/svg/boilerplate";
 import SAMLSvg from "../components/svg/saml";
