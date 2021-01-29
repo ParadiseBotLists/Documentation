@@ -1,4 +1,4 @@
-# Paradise Bots Docs
+# Paradise Docs - v3
 Official Documentation for Paradise Bot List
 
 
