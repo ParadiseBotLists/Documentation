@@ -1,7 +1,7 @@
 var path = require("path");
 
 module.exports = {
-  title: "Paradise Bots Docs",
+  title: "Paradise Bots",
   tagline: "Official Documentation for Paradise Bot List and its Companion API.",
   url: "https://support.paradisebots.net",
   baseUrl: "/",
