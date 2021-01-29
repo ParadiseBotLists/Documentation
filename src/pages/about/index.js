@@ -102,7 +102,6 @@ function Pricing() {
                   <p className={styles.prev}>
                     Title(s):
                     <br /> Web Admin, Server Admin
-                    UpStanding Desk
                   </p>
                   <div className={styles.social}>
                     <a
