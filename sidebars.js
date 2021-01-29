@@ -6,7 +6,7 @@ module.exports = {
       type: "category",
       label: "Paradise Bots API",
       items: [
-        "paradise-api/paradiseapi-js",
+        "paradise-api/paradisebotsapi.js",
       ],
     },
     {
