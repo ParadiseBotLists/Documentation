@@ -81,7 +81,9 @@ function Home() {
                 </div>
               </div>
             ))}
-              <iframe 
+            <div className="col">
+               <TitleWithMarker title={title} />
+               <iframe 
                  src="https://discordapp.com/widget?id=748977820457238530&theme=dark" 
                  width="350" 
                  height="500" 
@@ -89,6 +91,7 @@ function Home() {
                  frameborder="0" 
                  sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
               </iframe>
+            </div>
           </div>
         </section>
       </main>
