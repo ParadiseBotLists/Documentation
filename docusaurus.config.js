@@ -40,7 +40,7 @@ module.exports = {
       { name: "og:type", content: "website" },
     ],
     navbar: {
-      title: "PBL Docs",
+      title: "Paradise",
       logo: {
         alt: "Paradise Logo",
         src: "img/ParadiseBotsLogo.png",
