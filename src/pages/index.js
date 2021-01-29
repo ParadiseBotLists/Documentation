@@ -83,7 +83,6 @@ function Home() {
               </div>
             ))}
             <div className="col">
-               <TitleWithMarker title="" />
                <Center>
                <iframe 
                  src="https://discordapp.com/widget?id=748977820457238530&theme=dark" 
