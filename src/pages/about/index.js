@@ -107,7 +107,7 @@ function Pricing() {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://twitter.com/Offical_Sun"
+                      href="https://twitter.com/itz_the_zero"
                     >
                       <TwitterSquareFilled />
                     </a>
