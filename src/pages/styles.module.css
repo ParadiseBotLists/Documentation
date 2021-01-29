@@ -34,6 +34,12 @@
   z-index: 0;
 }
 
+.featureicon{
+  width: 100px;
+  height: 100px;
+  color: #758ACF
+}
+
 .heroBtn:hover, .heroBtn:active {
   color: white !important;
   border-color: white !important;
