@@ -87,7 +87,7 @@ function Pricing() {
               </Col>
               <Col xs={12} md={6}>
                 <Card
-                  cover={<img src={useBaseUrl("img/sam_carmichael.png")} />}
+                  cover={<img src={useBaseUrl("https://media.discordapp.net/attachments/630858840585535498/804622012830973972/darling-in-the-franxx-edits-tumblr-darling-in-the-franxx-transparent-250_250.png")} />}
                   className={styles.personCard}
                   bordered={false}
                   headStyle={{}}
@@ -111,35 +111,6 @@ function Pricing() {
                       href="https://twitter.com/Official_Sun"
                     >
                       <TwitterSquareFilled />
-                    </a>
-                  </div>
-                </Card>
-              </Col>
-              <Col xs={12} md={6}>
-                <Card
-                  cover={<img src={useBaseUrl("img/michael_teevan.png")} />}
-                  className={styles.personCard}
-                  bordered={false}
-                  headStyle={{}}
-                  bodyStyle={{
-                    display: "flex",
-                    flexGrow: "1",
-                    flexDirection: "column",
-                    padding: "16px 0 0",
-                  }}
-                >
-                  <Card.Meta title="Michael Teevan" description="Sales" />
-                  <p className={styles.prev}>
-                    Previously:
-                    <br /> Sales @ Clearbit, imgix, Nexonia / Certify
-                  </p>
-                  <div className={styles.social}>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://linkedin.com/in/michaelteevan"
-                    >
-                      <LinkedinFilled />
                     </a>
                   </div>
                 </Card>
