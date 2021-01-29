@@ -14,8 +14,8 @@ module.exports = {
   ],
   themeConfig: {
     algolia: {
-      apiKey: "e446f4b89c6d2f86db157cc2906a1520",
-      indexName: "ossoapp",
+      apiKey: "83fedff8cf4b3c8c307860d884c83b58",		       apiKey: "e446f4b89c6d2f86db157cc2906a1520",
+      indexName: "paradiseapp",		
       searchParamaters: {
         appId: "BH4D9OD16A",
       },
