@@ -1,7 +1,7 @@
 ---
-id: reference
-title: API Reference
-sidebar_label: API Reference
+id: voting
+title: Voting
+sidebar_label: Vote API
 ---
 
 ## Voting Structure
