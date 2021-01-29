@@ -3,11 +3,18 @@ module.exports = {
     "quick-start",
     {
       type: "category",
-      label: "Paradise Bots API",
+      label: "API Documentation",
       items: [
         "paradise-api/overview",
         "paradise-api/reference",
         "paradise-api/paradiseapi.js",
+      ],
+    },
+    {
+      type: "category",
+      label: "Community Documentation",
+      items: [
+        "community/overview",
       ],
     },
   ],
