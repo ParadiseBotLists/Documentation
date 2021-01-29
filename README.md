@@ -5,6 +5,7 @@ Official Documentation for Paradise Bot List
 ## Build Status
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f7c23833-3623-49fc-8f00-aa7630056a37/deploy-status)](https://app.netlify.com/sites/naughty-morse-04f767/deploys)
 
+
 ---
 
 ## Deployed On.
