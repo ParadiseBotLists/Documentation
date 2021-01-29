@@ -12,7 +12,7 @@ module.exports = {
             "paradise-api/librarys/overview",
              {
               JavaScript: [
-                "paradise-api/librarys/javascript/paradiseapi-js",
+                "paradise-api/librarys/javascript/paradiseapi.js",
               ],
             },
             {
