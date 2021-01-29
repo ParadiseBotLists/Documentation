@@ -2,7 +2,7 @@ var path = require("path");
 
 module.exports = {
   title: "Paradise Bots",
-  tagline: "Official Documentation for Paradise Bot List and its Companion API.",
+  tagline: "Official Documentation and Support Area for Paradise Bot List and its Companion API.",
   url: "https://support.paradisebots.net",
   baseUrl: "/",
   favicon: "img/ParadiseBotsLogo.png",
@@ -35,7 +35,7 @@ module.exports = {
       { name: "og:image", content: "img/ParadiseBotsLogo.png" },
       {
         name: "og:description",
-        content: "Official Documentation for Paradise Bot List and its Companion API.",
+        content: "Official Documentation and Support Area for Paradise Bot List and its Companion API.",
       },
       { name: "og:type", content: "website" },
     ],
