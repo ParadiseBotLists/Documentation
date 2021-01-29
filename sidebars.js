@@ -25,5 +25,12 @@ module.exports = {
         "resources/overview",
       ],
     },
+    {
+      type: "category",
+      label: "Common Topics",
+      items: [
+        "topics/overview",
+      ],
+    },
   ],
 };
