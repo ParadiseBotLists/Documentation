@@ -86,6 +86,7 @@ function Home() {
                  src="https://discordapp.com/widget?id=748977820457238530&theme=dark" 
                  width="350" 
                  height="500"
+                 position="center"
                  style={{ position: 'center' }}
                  allowtransparency="true" 
                  frameborder="0" 
