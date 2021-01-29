@@ -14,8 +14,9 @@ date | Number | The date of the vote.
 ---
 
 ## Voting Endpoint (Linked to Bot)
-
-<Route method="GET" path="bots/:botid/vote" auth />
+```
+bots/:botid/vote
+```
 
 ---
 
