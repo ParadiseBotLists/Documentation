@@ -17,7 +17,7 @@ module.exports = {
             },
             {
               Python: [
-                "paradise-api/librarys/javascript/paradiseapi.py",
+                "paradise-api/librarys/python/paradiseapi.py",
               ],
             },
           ],
