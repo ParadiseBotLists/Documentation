@@ -26,6 +26,8 @@ function Layout(props) {
 
       <SkipToContent />
 
+      <AnnouncementBar />
+
       <Navbar />
 
       <div className={clsx("main-wrapper", wrapperClassName)}>{children}</div>
