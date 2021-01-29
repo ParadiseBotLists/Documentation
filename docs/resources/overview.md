@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Resource Documentation
-sidebar_label: 'Resource Docs'
+sidebar_label: 'Resources - Overview'
 ---
 
 import UnderConstruction from '../../src/components/constructionCallout'
