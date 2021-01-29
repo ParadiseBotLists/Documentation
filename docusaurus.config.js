@@ -1,7 +1,7 @@
 var path = require("path");
 
 module.exports = {
-  title: "Paradise Bots",
+  title: "Paradise Support",
   tagline: "Official Documentation and Support Area for Paradise Bot List and its Companion API.",
   url: "https://support.paradisebots.net",
   baseUrl: "/",
@@ -14,7 +14,7 @@ module.exports = {
   ],
   themeConfig: {
     algolia: {
-      apiKey: "83fedff8cf4b3c8c307860d884c83b58",		       apiKey: "e446f4b89c6d2f86db157cc2906a1520",
+      apiKey: "83fedff8cf4b3c8c307860d884c83b58",
       indexName: "paradiseapp",		
       searchParamaters: {
         appId: "160PZ84HU3",
@@ -25,7 +25,7 @@ module.exports = {
       content: 'Paradise Bots v3 🎉 🍾 Read the official <a href="/blog/pbl-v3-update">blog post</a>.',
       backgroundColor: "#fafbfc", // Defaults to `#fff`.
       textColor: "#091E42", // Defaults to `#000`.
-      isCloseable: true, // Defaults to `true`.
+      isCloseable: false, // Defaults to `true`.
     },
     googleAnalytics: {
       trackingID: "UA-177630158-1",
