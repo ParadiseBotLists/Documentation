@@ -98,33 +98,19 @@ function Pricing() {
                     padding: "16px 0 0",
                   }}
                 >
-                  <Card.Meta title="Sam Carmichael" description="Design" />
+                  <Card.Meta title="SunRise" description="Co-Founder" />
                   <p className={styles.prev}>
-                    Previously:
-                    <br /> Product design @ WeWork, Founder @ The
+                    Title(s):
+                    <br /> Web Admin, Server Admin
                     UpStanding Desk
                   </p>
                   <div className={styles.social}>
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://linkedin.com/in/samcarmichael"
-                    >
-                      <LinkedinFilled />
-                    </a>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://twitter.com/sccarmichael"
+                      href="https://twitter.com/Official_Sun"
                     >
                       <TwitterSquareFilled />
-                    </a>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://sam-carmichael.com"
-                    >
-                      <HomeFilled />
                     </a>
                   </div>
                 </Card>
@@ -158,52 +144,6 @@ function Pricing() {
                   </div>
                 </Card>
               </Col>
-              {false && (
-                <Col xs={12} md={6}>
-                  <Card
-                    cover={<img src={useBaseUrl("img/sam_bauch.png")} />}
-                    className={styles.personCard}
-                    bordered={false}
-                    headStyle={{}}
-                    bodyStyle={{
-                      display: "flex",
-                      flexGrow: "1",
-                      flexDirection: "column",
-                      padding: "16px 0 0",
-                    }}
-                  >
-                    <Card.Meta title="Sam Bauch" description="Engineering" />
-                    <p className={styles.prev}>
-                      Previously:
-                      <br /> Engineering @ Clearbit, WeWork, VaynerMedia
-                    </p>
-                    <div className={styles.social}>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://linkedin.com/in/sambauch"
-                      >
-                        <LinkedinFilled />
-                      </a>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://linkedin.com/in/sambauch"
-                      >
-                        <GithubFilled />
-                      </a>
-
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://linkedin.com/in/sambauch"
-                      >
-                        <TwitterSquareFilled />
-                      </a>
-                    </div>
-                  </Card>
-                </Col>
-              )}
             </Row>
           </Col>
         </Row>
