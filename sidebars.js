@@ -18,5 +18,12 @@ module.exports = {
         "community/overview",
       ],
     },
+    {
+      type: "category",
+      label: "Resource Documentation",
+      items: [
+        "community/overview",
+      ],
+    },
   ],
 };
