@@ -4,6 +4,13 @@ module.exports = {
     "quick-start",
     {
       type: "category",
+      label: "Paradise Bots API",
+      items: [
+        "paradise-api/paradiseapi-js",
+      ],
+    },
+    {
+      type: "category",
       label: "How to deploy Osso",
       items: [
         "deploy/overview",
