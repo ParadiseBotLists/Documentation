@@ -12,28 +12,12 @@ const regex = /{[^{}]+}/g;
 const Route = {};
 export default Route;
 
-const useVersions = () =>
-  useStaticQuery(graphql`
-    query RouteVersionQuery {
-      site {
-        siteMetadata {
-          api {
-            restVersion
-            gatewayVersion
-          }
-        }
-      }
-    }
-  `).site.siteMetadata.api;
-
 // ? =================
 // ? Restful API route
 // ? =================
 
 Route.Restful = function({ method, path, auth, version }) {
-  const { restVersion } = useVersions();
-  const derivedVersion = isDefined(version) ? version : restVersion;
-
+  
   const formattedPath = splitFragments(path, regex).map(fragment => (
     <span
       className={regex.test(fragment) ? "route--path__param" : undefined}
@@ -44,7 +28,7 @@ Route.Restful = function({ method, path, auth, version }) {
   ));
   return (
     <div className="route route__restful">
-      <span className="route--version">{derivedVersion}</span>
+      <span className="route--version">REST v3.0.0</span>
       <h3>
         <span className="route--method">{method}</span>
         <span className="route--path">{formattedPath}</span>
@@ -82,12 +66,10 @@ Route.Gateway = function({
   sentFrom,
   room
 }) {
-  const { gatewayVersion } = useVersions();
-  const derivedVersion = isDefined(version) ? version : gatewayVersion;
-
+  
   return (
     <div className={classNames("route route__gateway", `route__${sentFrom}`)}>
-      <span className="route--version">{derivedVersion}</span>
+      <span className="route--version">GATEWAY v3.0.0</span>
       <div className="route--gateway-wrapper">
         <div className="route--gateway-header">
           <div className="route--gateway-metadata">
