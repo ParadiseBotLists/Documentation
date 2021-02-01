@@ -9,6 +9,7 @@
     "deploy": "docusaurus deploy",
     "lint": "eslint src/"
   },
+
   "dependencies": {
     "@ant-design/icons": "^4.3.0",
     "@docusaurus/core": "^2.0.0-alpha.65",
@@ -40,6 +41,7 @@
     "lodash": "^4.17.15",
     "moment": "^2.24.0"
   },
+
   "browserslist": {
     "production": [
       ">0.2%",
@@ -53,11 +55,14 @@
     ]
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "babel-preset-gatsby": "^0.2.1",
     "eslint": "^7.10.0",
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.2",
     "eslint-plugin-simple-import-sort": "^5.0.3",
-    "prettier": "^2.1.2"
+    "prettier": "^2.1.2",
+    "node-sass": "^4.12.0"
   }
 }
