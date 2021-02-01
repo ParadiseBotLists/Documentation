@@ -1,5 +1,4 @@
 import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
 import PropTypes from "prop-types";
 import { splitFragments, isDefined } from "utility";
 import classNames from "classnames";
