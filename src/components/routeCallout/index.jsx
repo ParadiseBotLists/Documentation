@@ -5,7 +5,7 @@ import classNames from "classnames";
 
 import Icon from "../Icon";
 
-import "./styles.module.css";
+import "./styles.module.scss";
 
 const regex = /{[^{}]+}/g;
 
