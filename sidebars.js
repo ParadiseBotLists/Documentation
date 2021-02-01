@@ -40,7 +40,12 @@ module.exports = {
       type: "category",
       label: "Resource Documentation",
       items: [
-        "resources/overview",
+        "resources/intro",
+        {
+         Bots: [
+           "resources/bots/bots",
+            ],
+         },
       ],
     },
     {
