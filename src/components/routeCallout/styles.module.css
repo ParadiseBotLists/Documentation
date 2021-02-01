@@ -1,9 +1,8 @@
 .route {
-    $this: &;
     font-weight: 400;
     margin-bottom: 1.25rem;
 
-    &--version {
+    version {
         @include dark-very-fade-fg;
         @include light-very-fade-fg;
 
