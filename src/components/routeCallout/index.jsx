@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { splitFragments, isDefined } from "utility";
+import { splitFragments, isDefined } from "../../utils";
 import classNames from "classnames";
 
-import Icon from "components/Icon";
+import Icon from "../Icon";
 
-import "./styles.module.scss";
+import "./styles.module.css";
 
 const regex = /{[^{}]+}/g;
 
