@@ -1,3 +1,9 @@
+@import "../../scss/colors";
+@import "../../scss/theme";
+@import "../../scss/fonts";
+@import "../../scss/media";
+
+
 .route {
    $this: &;
     font-weight: 400;
